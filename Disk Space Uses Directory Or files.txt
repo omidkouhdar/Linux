@@ -1,7 +1,7 @@
 This Command List irectory Name With amount Of disk Use In Current Directory
 
 
-du -sh * | sort -hr | head n10   => show in GB 
+du -sh * | sort -hr | head -10   => show in GB 
 
 
-n10 means show top 10 directories
+-10 means show top 10 directories
